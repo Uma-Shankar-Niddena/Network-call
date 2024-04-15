@@ -1,0 +1,30 @@
+
+
+GET https://umashankar3imvbnjscpxtwms.drops.nxtwave.tech/players/
+
+### 
+POST https://umashankar3imvbnjscpxtwms.drops.nxtwave.tech/players/
+Content-Type:application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+###
+GET https://umashankar3imvbnjscpxtwms.drops.nxtwave.tech/players/10/
+
+###
+PUT https://umashankar3imvbnjscpxtwms.drops.nxtwave.tech/players/5/
+Content-Type:application/json 
+
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+###
+DELETE https://umashankar3imvbnjscpxtwms.drops.nxtwave.tech/players/6/
+
